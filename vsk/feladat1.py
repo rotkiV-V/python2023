@@ -29,8 +29,14 @@ print("5.feladat")
 print()
 
 darab=0
+szam=0
 for z in range(100,1001):
     darab+=1
-    print(darab-1)
+    szam+=1
+    if darab==1000:
+        szam-100
+    print(szam)
+    
+
 
 
